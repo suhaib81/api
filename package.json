@@ -1,0 +1,31 @@
+{
+  "name": "openembassy-api",
+  "version": "0.0.1",
+  "description": "Backend for Open Embassy app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "course",
+    "management"
+  ],
+  "author": "Daan Aerts",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.0",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "q": "^1.4.1",
+    "sequelize": "^4.0.0-2",
+    "socket.io": "^1.6.0",
+    "split": "^1.0.0",
+    "winston": "^2.3.0"
+  }
+}
