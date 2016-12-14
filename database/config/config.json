@@ -4,7 +4,8 @@
     "password": "oe_password",
     "database": "oe_db_dev",
     "host": "localhost",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "port":5432
   },
   "test": {
     "username": "oe_admin",
