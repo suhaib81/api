@@ -12,13 +12,15 @@
     "password": "oe_password",
     "database": "oe_db",
     "host": "localhost",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "port":5432
   },
   "production": {
     "username": "oe_admin",
     "password": "oe_password",
     "database": "oe_db",
     "host": "localhost",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "port":5432
   }
 }

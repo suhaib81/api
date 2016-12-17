@@ -1,8 +1,8 @@
 'use strict';
 module.exports = {
   up: function(queryInterface, Sequelize) {
-    return queryInterface.createTable('questions', {
-      id: {
+    return queryInterface.createTable('Questions', {
+      questionId: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
@@ -12,7 +12,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       status: {
-        type: DataTypes.ENUM,
+        type: Sequelize.ENUM,
         values: ['open', 'picked-up', 'answered'], // etc...
         allowNull: false,
         defaultValue: 'open'
@@ -24,10 +24,15 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
+      },
+      userId: {
+        type: Sequelize.INTEGER,
+        references: { model: 'Users', key: 'userId' },
+        allowNull: false
       }
     });
   },
   down: function(queryInterface, Sequelize) {
-    return queryInterface.dropTable('questions');
+    return queryInterface.dropTable('Questions');
   }
 };
