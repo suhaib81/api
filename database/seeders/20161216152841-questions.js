@@ -8,7 +8,7 @@ module.exports = {
       status:'open',
       createdAt: new Date(),
       updatedAt: new Date(),
-      userId: 1
+      creatorId: 1
     }], {});
   },
 

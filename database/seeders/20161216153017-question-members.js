@@ -5,8 +5,6 @@ module.exports = {
 
     return queryInterface.bulkInsert('QuestionsMembers', [{
       role:'creator',
-      lastViewedAt:new Date(),
-      lastPostCount:0,
       createdAt: new Date(),
       updatedAt: new Date(),
       userId:1,
