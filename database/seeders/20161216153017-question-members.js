@@ -3,7 +3,7 @@
 module.exports = {
   up: function (queryInterface, Sequelize) {
 
-    return queryInterface.bulkInsert('QuestionsMembers', [{
+    return queryInterface.bulkInsert('QuestionMembers', [{
       role:'creator',
       createdAt: new Date(),
       updatedAt: new Date(),
@@ -14,7 +14,7 @@ module.exports = {
   },
 
   down: function (queryInterface, Sequelize) {
-    return queryInterface.bulkDelete('QuestionsMembers', null, {});
+    return queryInterface.bulkDelete('QuestionMembers', null, {});
   }
 };
 
