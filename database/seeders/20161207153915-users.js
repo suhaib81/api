@@ -11,6 +11,51 @@ module.exports = {
       type:'user',
       createdAt: new Date(),
       updatedAt: new Date()
+    },{
+      firstName: 'Elon',
+      lastName: 'Musk',
+      email: 'test1@openembassy.nl',
+      password: '$2a$12$3C9T8.9BSx1DoGgG7OyIuOmX1HIw/QI9fFC3IgIno6QSx632iM9LG',
+      active: true,
+      type:'user',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },{
+      firstName: 'Elon',
+      lastName: 'Musk',
+      email: 'test2@openembassy.nl',
+      password: '$2a$12$3C9T8.9BSx1DoGgG7OyIuOmX1HIw/QI9fFC3IgIno6QSx632iM9LG',
+      active: true,
+      type:'user',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },{
+      firstName: 'Elon',
+      lastName: 'Musk',
+      email: 'test3@openembassy.nl',
+      password: '$2a$12$3C9T8.9BSx1DoGgG7OyIuOmX1HIw/QI9fFC3IgIno6QSx632iM9LG',
+      active: true,
+      type:'user',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },{
+      firstName: 'leo',
+      lastName: 'frank',
+      email: 'leofrank@gmail.com',
+      password: '$2a$12$3C9T8.9BSx1DoGgG7OyIuOmX1HIw/QI9fFC3IgIno6QSx632iM9LG',
+      active: true,
+      type:'user',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    },{
+      firstName: 'Elon',
+      lastName: 'Musk',
+      email: 'test5@openembassy.nl',
+      password: '$2a$12$3C9T8.9BSx1DoGgG7OyIuOmX1HIw/QI9fFC3IgIno6QSx632iM9LG',
+      active: true,
+      type:'user',
+      createdAt: new Date(),
+      updatedAt: new Date()
     }], {});
   },
 

@@ -8,7 +8,7 @@ module.exports = {
       message:"hello",
       createdAt: new Date(),
       updatedAt: new Date(),
-      userId:1,
+      userId:5,
       questionId:1
     }], {});
 

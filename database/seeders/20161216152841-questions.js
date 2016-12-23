@@ -8,7 +8,25 @@ module.exports = {
       status:'open',
       createdAt: new Date(),
       updatedAt: new Date(),
-      creatorId: 1
+      creatorId: 5
+    },{
+      title:'A title for test question1?',
+      status:'open',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      creatorId: 5
+    },{
+      title:'A title for test question2?',
+      status:'open',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      creatorId: 5
+    },{
+      title:'A title for test question3?',
+      status:'open',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      creatorId: 5
     }], {});
   },
 
