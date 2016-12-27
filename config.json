@@ -1,0 +1,27 @@
+{
+  "development": {
+  	"port": 4050,
+  	"jwtSecretHash": "oeVerySecretHash",
+  	"postgres": {
+	    "username": "oe_admin",
+	    "password": "oe_password",
+	    "database": "oe_db_dev",
+	    "host": "localhost",
+	    "dialect": "postgres"
+	  }
+  },
+  "test": {
+    "username": "oe_admin",
+    "password": "oe_password",
+    "database": "oe_db",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "oe_admin",
+    "password": "oe_password",
+    "database": "oe_db",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
