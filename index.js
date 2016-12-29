@@ -23,5 +23,3 @@ try {
 }
 
 module.exports = app;
-
-setInterval(() => console.log('time'),1000);
