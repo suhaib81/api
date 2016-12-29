@@ -1,9 +1,7 @@
 'use strict';
 
-if (!process.env.NODE_ENV) {
-  require('dotenv').load();
-  require('./lib/utils/check-env').check();
-}
+if (!process.env.NODE_ENV) { require('dotenv').config(); }
+require('./lib/utils/check-env').check();
 
 const DEFAULT_PORT = 4050;
 const log = require('./lib/utils/logger');
