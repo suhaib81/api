@@ -14,7 +14,7 @@ try {
   const server = require('http').createServer(app);
   const io = require('./lib/utils/web-sockets').registerServer(server);
   server.listen(process.env.PORT || DEFAULT_PORT);
-  log.info(`Open Embassy API booted`);
+  log.info(`Open Embassy API started`);
   log.info(`Environment          : ${process.env.NODE_ENV}`);
   log.info(`Port                 : ${server.address().port}`);
 } catch (error) {
