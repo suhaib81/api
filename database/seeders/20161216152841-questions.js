@@ -27,6 +27,18 @@ module.exports = {
       createdAt: new Date(),
       updatedAt: new Date(),
       creatorId: 5
+    },{
+      title:'A title for test question4 pick up?',
+      status:'picked-up',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      creatorId: 5
+    },{
+      title:'A title for test question5 pick up?',
+      status:'answered',
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      creatorId: 5
     }], {});
   },
 

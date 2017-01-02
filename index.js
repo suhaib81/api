@@ -21,12 +21,6 @@ try {
     log.info(`Environment          : ${process.env.NODE_ENV}`);
     log.info(`Port                 : ${server.address().port}`);
 
- /*   models.sequelize.query('CREATE EXTENSION IF NOT EXISTS hstore').then(function () {
-        models.sequelize.sync().then(function () {
-            console.log('Database ready!');
-        });
-    });*/
-
 } catch (error) {
     log.error(`Error starting API`);
     log.error(error);
