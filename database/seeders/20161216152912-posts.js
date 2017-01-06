@@ -6,10 +6,11 @@ module.exports = {
     return queryInterface.bulkInsert('Posts', [{
       type:'message',
       message:"hello",
+      metadata:{},
       createdAt: new Date(),
       updatedAt: new Date(),
       userId:5,
-      questionId:1
+      questionId:5
     }], {});
 
   },
