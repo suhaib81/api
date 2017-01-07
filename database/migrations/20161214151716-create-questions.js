@@ -11,6 +11,9 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
+      content: {
+        type: Sequelize.TEXT
+      },
       status: {
         type: Sequelize.ENUM,
         values: ['open', 'picked-up', 'answered'], // etc...
