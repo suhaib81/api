@@ -6,7 +6,7 @@ module.exports = {
     return queryInterface.bulkInsert('Posts', [{
       type:'message',
       message:"hello",
-      metadata:{},
+      metadata:JSON.stringify({}),
       createdAt: new Date(),
       updatedAt: new Date(),
       userId:5,
