@@ -26,7 +26,7 @@ module.exports = {
       email: 'test2@openembassy.nl',
       password: '$2a$12$3C9T8.9BSx1DoGgG7OyIuOmX1HIw/QI9fFC3IgIno6QSx632iM9LG',
       active: true,
-      type:'user',
+      type:'volunteer',
       createdAt: new Date(),
       updatedAt: new Date()
     },{
@@ -35,7 +35,7 @@ module.exports = {
       email: 'test3@openembassy.nl',
       password: '$2a$12$3C9T8.9BSx1DoGgG7OyIuOmX1HIw/QI9fFC3IgIno6QSx632iM9LG',
       active: true,
-      type:'user',
+      type:'volunteer',
       createdAt: new Date(),
       updatedAt: new Date()
     },{
