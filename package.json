@@ -1,6 +1,6 @@
 {
   "name": "openembassy-api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Backend for Open Embassy app",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,15 @@
     "test": "npm test"
   },
   "keywords": [
-    "course",
-    "management"
+    "open embassy"
   ],
   "author": "Daan Aerts",
   "license": "ISC",
+  "engines": {
+    "node" : "6.9.x"
+  },
   "dependencies": {
-    "bcrypt": "^1.0.0",
+    "bcrypt": "^1.0.1",
     "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
     "colors": "^1.1.2",
