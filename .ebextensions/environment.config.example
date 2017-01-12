@@ -18,3 +18,9 @@ option_settings:
     value: oe_db_dev
   - option_name: DB_HOST
     value: localhost
+  - option_name: LOG_DEBUG
+    value: false
+  - option_name: LOG_TRACE
+    value: false
+  - option_name: LOG_DB_TRACE
+    value: false
