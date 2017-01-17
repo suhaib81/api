@@ -1,54 +1,36 @@
 'use strict';
 
 module.exports = {
-  up: function (queryInterface, Sequelize) {
+  up: function(queryInterface, Sequelize) {
 
     return queryInterface.bulkInsert('Questions', [{
-      title:'I want change my house doctor, do you know a good one?',
-      status:'open',
+      questionId: 1,
+      title: 'I want change my house doctor, do you know a good one?',
+      status: 'open',
       content: 'Looking for a doctor in Amsterdam region',
       createdAt: new Date(),
       updatedAt: new Date(),
-      creatorId: 5
-    },{
-      title:'What is for dinner?',
-      status:'open',
+      creatorId: 2
+    }, {
+      questionId: 2,
+      title: 'A title for test question4 pick up?',
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      status: 'picked-up',
       createdAt: new Date(),
       updatedAt: new Date(),
-      creatorId: 5
-    },{
-      title:'How do you do',
+      creatorId: 2
+    }, {
+      questionId: 3,
+      title: 'A title for test question5 pick up?',
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      status:'open',
+      status: 'answered',
       createdAt: new Date(),
       updatedAt: new Date(),
-      creatorId: 5
-    },{
-      title:'A title for test question3?',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      status:'open',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      creatorId: 5
-    },{
-      title:'A title for test question4 pick up?',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      status:'picked-up',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      creatorId: 5
-    },{
-      title:'A title for test question5 pick up?',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      status:'answered',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      creatorId: 5
+      creatorId: 2
     }], {});
   },
 
-  down: function (queryInterface, Sequelize) {
+  down: function(queryInterface, Sequelize) {
     return queryInterface.bulkDelete('Questions', null, {});
   }
 };
