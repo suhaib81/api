@@ -13,7 +13,7 @@
   "author": "Daan Aerts",
   "license": "ISC",
   "engines": {
-    "node" : "6.9.x"
+    "node": "6.9.x"
   },
   "dependencies": {
     "bcrypt": "^1.0.1",
@@ -28,6 +28,7 @@
     "morgan": "^1.7.0",
     "pg": "^6.1.0",
     "pg-hstore": "^2.3.2",
+    "sendgrid": "^1.9.2",
     "sequelize": "^3.21.0",
     "socket.io": "^1.6.0",
     "split": "^1.0.0",
