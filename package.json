@@ -4,6 +4,7 @@
   "description": "Backend for Open Embassy app",
   "main": "index.js",
   "scripts": {
+    "prestart": "node_modules/.bin/sequelize db:migrate",
     "start": "node index.js",
     "test": "npm test"
   },
