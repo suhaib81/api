@@ -1,12 +1,16 @@
 branch-defaults:
   master:
     environment: production
+environment-defaults:
+  production:
+    branch: null
+    repository: null
 global:
   application_name: oe-api
   branch: null
   default_ec2_keyname: oe_secret
   default_platform: Node.js
   default_region: eu-central-1
-  profile: eb-cli
+  profile: null
   repository: null
   sc: git
