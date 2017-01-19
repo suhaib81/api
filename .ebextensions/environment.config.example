@@ -24,3 +24,11 @@ option_settings:
     value: false
   - option_name: LOG_DB_TRACE
     value: false
+  - option_name: SEND_EMAILS
+    value: example
+  - option_name: SENDGRID_API_KEY
+    value: example
+  - option_name: SENDGRID_TEMPLATE_ID
+    value: example
+  - option_name: APP_ORIGIN
+    value: example
