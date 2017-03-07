@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: production
+    environment: oe-staging-blue
 environment-defaults:
   production:
     branch: null
