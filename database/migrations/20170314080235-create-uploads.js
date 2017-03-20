@@ -6,6 +6,14 @@ module.exports = {
         type: Sequelize.STRING,
         primaryKey: true
       },
+      type: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+      name: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
       inUse: {
         type: Sequelize.BOOLEAN
       },
