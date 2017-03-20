@@ -17,6 +17,7 @@
     "node": "6.9.x"
   },
   "dependencies": {
+    "aws-sdk": "^2.23.0",
     "bcrypt": "^1.0.1",
     "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
