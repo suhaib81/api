@@ -1,8 +1,6 @@
 branch-defaults:
   master:
-    environment: oe-production
-  s3-upload:
-    environment: oe-staging-blue
+    environment: production
 environment-defaults:
   production:
     branch: null
