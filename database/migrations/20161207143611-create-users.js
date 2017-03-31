@@ -1,6 +1,6 @@
 'use strict';
 module.exports = {
-  up: function(queryInterface, Sequelize) {
+  up: function (queryInterface, Sequelize) {
     return queryInterface.createTable('Users', {
       userId: {
         allowNull: false,
@@ -36,6 +36,20 @@ module.exports = {
         values: ['user', 'volunteer', 'translator', 'admin'],
         allowNull: false
       },
+      language: {
+        type: Sequelize.ENUM,
+        values: ['en', 'ar', 'nl', 'others'],
+        defaultValue: 'en',
+        allowNull: false
+      },
+      dob: {type: Sequelize.DATE},
+      phone: {type: Sequelize.STRING, defaultValue: '000-000-000', allowNull: false},
+      gender: {type: Sequelize.STRING},
+      city: {type: Sequelize.STRING, defaultValue: 'Change Me To Your Gemeente', allowNull: false},
+      education: {type: Sequelize.STRING},
+      intro: {type: Sequelize.STRING},
+      dateofstatus: {type: Sequelize.STRING},
+      typeofpermit: {type: Sequelize.STRING},
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
@@ -46,7 +60,7 @@ module.exports = {
       }
     });
   },
-  down: function(queryInterface, Sequelize) {
+  down: function (queryInterface, Sequelize) {
     return queryInterface.dropTable('Users');
   }
 };
