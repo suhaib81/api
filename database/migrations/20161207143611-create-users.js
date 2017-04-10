@@ -37,8 +37,7 @@ module.exports = {
         allowNull: false
       },
       language: {
-        type: Sequelize.ENUM,
-        values: ['en', 'ar', 'nl', 'others'],
+        type: Sequelize.STRING,
         defaultValue: 'en',
         allowNull: false
       },
