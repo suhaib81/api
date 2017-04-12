@@ -10,7 +10,7 @@ INSERT INTO users
 
 -- Questions
 INSERT INTO questions
-	(title, content, status) 
+	(title, content, status)
 	VALUES ('Test question 1', 'I have a question it is about', 'open'),
 	('Test question 2', 'I have a question it is about', 'picked-up'),
 	('Test question 3', 'I have a question it is about', 'answered');
