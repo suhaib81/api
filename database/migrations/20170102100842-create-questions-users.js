@@ -2,12 +2,6 @@
 module.exports = {
   up: function(queryInterface, Sequelize) {
     return queryInterface.createTable('QuestionsUsers', {
-      questionsUsersId: {
-        allowNull: false,
-        autoIncrement: true,
-        primaryKey: true,
-        type: Sequelize.INTEGER
-      },
       role: {
         type: Sequelize.ENUM,
         values: ['creator', 'volunteer', 'translator'], // etc...
